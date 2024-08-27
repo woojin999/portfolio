@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./components/pages/Main";
 import Layout from "./components/layout/layout";
 
+import "./css/main.scss";
+
 export default function MainComponent() {
   return (
     <BrowserRouter>
