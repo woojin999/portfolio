@@ -9,7 +9,7 @@ function TopArea(props) {
                 <nav className='gnb-menu'>
                     <ul>
                         <li>Home</li>
-                        <li>Profile</li>
+                        <li>About me</li>
                         <li>Skill</li>
                         <li>Works</li>
                         <li>Contact</li>

@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
 
 * {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "Noto Sans KR","Inter", sans-serif;
+  font-weight: 400;
 }
 html {
   font-size: 10px;
@@ -13,6 +16,10 @@ h2,
 h3,
 h4 {
   font-size: 3rem;
+  font-family: Black Han Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+p{
+  font-family: "Noto Sans KR", sans-serif;
 }
 /* 중앙속박스 */
 .inbox {

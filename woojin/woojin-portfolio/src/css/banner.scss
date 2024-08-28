@@ -1,0 +1,60 @@
+#banner-area {
+  background-color: #ebf8ff;
+  text-align: center;
+  h2 {
+    font-size: 10rem;
+    font-family: Black Han Sans, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Noto Color Emoji;
+    margin-bottom: 5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .scroll-down {
+    position: relative;
+    bottom: -15rem;
+    font-size: 1.5rem;
+  }
+  .scroll-bar {
+    position: relative;
+    background: #ffffff30;
+    height: 5rem;
+    margin: 1rem auto;
+    overflow: hidden;
+    width: .5rem;
+    bottom: -15rem;
+  }
+  .scroll-bar::after {
+    position: absolute;
+    content: "";
+    animation: scroll-bar 1.5s linear infinite;
+    background: #000;
+    height: 5rem;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: .3rem;
+    // bottom: -15rem;
+  }
+  @keyframes scroll-bar {
+    0% {
+      opacity: 0;
+      top: 0;
+    }
+    70% {
+      opacity: 1;
+      top: 70%;
+    }
+    100% {
+      opacity: 0;
+      top: 100%;
+    }
+  }
+  .btitle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
