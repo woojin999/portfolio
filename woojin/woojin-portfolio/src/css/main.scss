@@ -1,3 +1,7 @@
 @import "./common/core";
 @import "./common/grid_12_flex";
 @import "./common/reset";
+
+body *{
+    outline: 2px dashed #ccc;
+}
