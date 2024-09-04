@@ -4,9 +4,13 @@
 
 
 
-body *{
-    outline: 2px dashed #ccc;
-}
-#banner-area,#contact-area,#profile-area,#skill-area,#works-area{
+// body *{
+//     outline: 2px dashed #ccc;
+// }
+#banner-area{
     height: 950px;
+    
+}
+#contact-area,#profile-area,#skill-area,#works-area{
+    height: 1000px;
 }

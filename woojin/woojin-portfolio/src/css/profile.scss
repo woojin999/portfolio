@@ -1,7 +1,40 @@
-#profile-area{
-    h2{
-        margin-top: 20rem;
-        text-align: center;
-        font-size: 5rem;
+#profile-area {
+  >div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }  
+  h2 {
+    // margin-top: 20rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    font-size: 5rem;
+  }
+  .profile-box {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+
+    img {
+      border-radius: 50%;
+      max-width: 300px;
+      width: 100%;
     }
+    .pf-text {
+    >div{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+      h3 {
+      }
+      .introduce {
+        margin-bottom: 3rem;
+      }
+      p {
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
 }
