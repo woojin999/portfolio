@@ -1,11 +1,11 @@
 #profile-area {
+  padding: 0 2rem 0 2rem;
   >div{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
   }  
   h2 {
-    // margin-top: 20rem;
     margin-bottom: 10rem;
     text-align: center;
     font-size: 5rem;
@@ -14,11 +14,14 @@
     display: flex;
     max-width: 900px;
     margin: 0 auto;
-
+    .pf-img{
+      padding-right: 2rem;
+    }
     img {
       border-radius: 50%;
       max-width: 300px;
       width: 100%;
+      transform: scaleX(-1);
     }
     .pf-text {
     >div{
