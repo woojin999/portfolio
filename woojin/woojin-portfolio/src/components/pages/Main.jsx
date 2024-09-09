@@ -12,7 +12,6 @@ function Main(props) {
         <Profile/>
         <Skill/>
         <Works/>
-        <Contact/>
         </>
     );
 }

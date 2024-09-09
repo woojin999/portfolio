@@ -38,6 +38,9 @@ function Skill(props) {
               <img src="/images/skill/spring.png" alt="spring" />
             </li>
             <li>
+              <img src="/images/skill/mysql.png" alt="mysql" />
+            </li>
+            <li>
               <img src="/images/skill/github.png" alt="github" />
             </li>
             <li>
