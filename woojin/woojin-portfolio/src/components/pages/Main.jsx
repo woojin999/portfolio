@@ -4,6 +4,9 @@ import Skill from '../modules/Skill';
 import Works from '../modules/Works';
 import Profile from '../modules/Profile';
 import Contact from '../modules/Contact';
+import ProjectDetail from '../modules/ProjectDetail';
+import HongDetail from '../modules/HongDetail';
+import StarDetail from '../modules/StarDetail';
 
 function Main(props) {
     return (
@@ -12,6 +15,9 @@ function Main(props) {
         <Profile/>
         <Skill/>
         <Works/>
+        <ProjectDetail/>
+        <HongDetail/>
+        <StarDetail/>
         </>
     );
 }
