@@ -13,17 +13,14 @@ import $ from "jquery";
 function Works() {
   const shopDetail = (e) =>{
     let ScpDetail = $(".Scp-detail");
-    // console.log(ScpDetail);
     ScpDetail.css("display","inline-block");
   }
   const hongDetail = (e) =>{
     let hongDetail = $(".hcp-detail");
-    // console.log(ScpDetail);
     hongDetail.css("display","inline-block");
   }
   const starwarsDetail = (e) =>{
     let starwarsDetail = $(".Star-detail");
-    // console.log(ScpDetail);
     starwarsDetail.css("display","inline-block");
   }
   return (
@@ -33,16 +30,16 @@ function Works() {
         <div className="works-box">
           <Swiper
             spaceBetween={30}
-            // centeredSlides={true}
-            // autoplay={{
-            //   delay: 4500,
-            //   disableOnInteraction: false,
-            // }}
+            centeredSlides={true}
+            autoplay={{
+              delay: 4500,
+              disableOnInteraction: false,
+            }}
             pagination={{
               clickable: true,
             }}
             navigation={true}
-            modules={[Pagination, Navigation]}
+            modules={[Autoplay,Pagination, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide>
