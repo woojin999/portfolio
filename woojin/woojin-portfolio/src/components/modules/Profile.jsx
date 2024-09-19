@@ -20,9 +20,9 @@ function Profile(props) {
               <p>DOB : 1999.10.07</p>
               <p>Email : 24864@naver.com</p>
               <p>
-                Github : 
+                Github :
                 <a href="https://github.com/woojin999" target="_blank">
-                  woojin999
+                  &nbsp;woojin999
                 </a>
               </p>
             </div>

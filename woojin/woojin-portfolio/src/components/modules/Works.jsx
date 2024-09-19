@@ -14,14 +14,17 @@ function Works() {
   const shopDetail = (e) =>{
     let ScpDetail = $(".Scp-detail");
     ScpDetail.css("display","inline-block");
+    $("body").css("overflow","hidden");
   }
   const hongDetail = (e) =>{
     let hongDetail = $(".hcp-detail");
     hongDetail.css("display","inline-block");
+    $("body").css("overflow","hidden");
   }
   const starwarsDetail = (e) =>{
     let starwarsDetail = $(".Star-detail");
     starwarsDetail.css("display","inline-block");
+    $("body").css("overflow","hidden");
   }
   return (
     <div id="works-area">
@@ -31,15 +34,11 @@ function Works() {
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
-            autoplay={{
-              delay: 4500,
-              disableOnInteraction: false,
-            }}
             pagination={{
               clickable: true,
             }}
             navigation={true}
-            modules={[Autoplay,Pagination, Navigation]}
+            modules={[Pagination, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide>

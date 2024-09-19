@@ -85,7 +85,7 @@
     bottom: 30px;
     div {
       cursor: pointer;
-      background-color: #0077ff;
+      background-color: #3d3d3d;
       color: #fff;
       padding: 1rem;
       border-radius: 10px;
@@ -94,11 +94,17 @@
       }
     }
     :hover {
-      background-color: #bed9f8;
-      color: #000000;
+      background-color: #000000;
+      // color: #3d3d3d;
       a {
-        color: #000000;
+        // color: #000000;
       }
     }
+  }
+  .swiper-button-prev, .swiper-button-next{
+    color: #3d3d3d;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #3d3d3d;
   }
 }
