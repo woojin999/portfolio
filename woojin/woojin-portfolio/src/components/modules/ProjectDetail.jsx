@@ -148,19 +148,19 @@ function ProjectDetail(props) {
               <div className="col-7 dt-img">
                 <ul>
                   <li>
-                    <img src="/images/plants/myinfo.png" alt="myinfo" />
+                    <img src="/images/plants/myinfo.PNG" alt="myinfo" />
                   </li>
                   <li>
-                    <img src="/images/plants/myboard.png" alt="myboard" />
+                    <img src="/images/plants/myboard.PNG" alt="myboard" />
                   </li>
                   <li>
-                    <img src="/images/plants/mycart.png" alt="mycart" />
+                    <img src="/images/plants/mycart.PNG" alt="mycart" />
                   </li>
                   
                 </ul>
               </div>
               <div className="col-5 dt-desc">
-                <p>마이 페이지</p>
+                <p>마이 페이지d</p>
                 <ul>
                   <li>
                     내 정보, 내 게시글, 내 장바구니, 로그아웃 구현
