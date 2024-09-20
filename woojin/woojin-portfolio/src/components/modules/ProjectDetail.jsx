@@ -160,7 +160,7 @@ function ProjectDetail(props) {
                 </ul>
               </div>
               <div className="col-5 dt-desc">
-                <p>마이 페이지d</p>
+                <p>마이 페이지</p>
                 <ul>
                   <li>
                     내 정보, 내 게시글, 내 장바구니, 로그아웃 구현
