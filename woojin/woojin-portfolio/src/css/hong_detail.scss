@@ -11,7 +11,7 @@
 .hcp-area{
     position: fixed;
     left: 50%;
-    top: 120px;
+    top: 85px;
     transform: translateX(-50%);
     z-index: 99999;
 }
@@ -27,6 +27,9 @@
         padding-top: 2rem;
         color: #fff;
         text-align: center;
+    }
+    .sub-title{
+      margin-top: 2rem;
     }
 }
 
@@ -47,6 +50,7 @@
     }
     h5 {
       font-size: 2rem;
+      font-weight: bold;
     }
     .desc-wrap {
       padding: 3rem;

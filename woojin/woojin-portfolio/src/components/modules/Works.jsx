@@ -15,16 +15,19 @@ function Works() {
     let ScpDetail = $(".Scp-detail");
     ScpDetail.css("display","inline-block");
     $("body").css("overflow","hidden");
+    $(".scp-detail-box").scrollTop(0);
   }
   const hongDetail = (e) =>{
     let hongDetail = $(".hcp-detail");
     hongDetail.css("display","inline-block");
     $("body").css("overflow","hidden");
+    $(".hcp-detail-box").scrollTop(0);
   }
   const starwarsDetail = (e) =>{
     let starwarsDetail = $(".Star-detail");
     starwarsDetail.css("display","inline-block");
     $("body").css("overflow","hidden");
+    $(".star-detail-box").scrollTop(0);
   }
   return (
     <div id="works-area">

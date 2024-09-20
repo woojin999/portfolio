@@ -3,7 +3,6 @@ import Banner from '../modules/banner';
 import Skill from '../modules/Skill';
 import Works from '../modules/Works';
 import Profile from '../modules/Profile';
-import Contact from '../modules/Contact';
 import ProjectDetail from '../modules/ProjectDetail';
 import HongDetail from '../modules/HongDetail';
 import StarDetail from '../modules/StarDetail';
