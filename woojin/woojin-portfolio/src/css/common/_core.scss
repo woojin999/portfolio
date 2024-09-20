@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
 
+@font-face {
+  font-family: BlackHanSans;
+  src: url(../../static/fonts/BlackHanSans-Regular.ttf);
+}
+@font-face {
+  font-family: NotoSansKR;
+  src: url(../../static/fonts/NotoSansKR-Black.ttf);
+}
+
 * {
   font-family: "Noto Sans KR","Inter", sans-serif;
   font-weight: 400;
