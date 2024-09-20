@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Black Han Sans";
-  src: url(../../static/fonts/BlackHanSans-Regular.ttf) format("ttf");
+  src: url(../../static/fonts/BlackHanSans-Regular.ttf);
 }
 
 @font-face {
   font-family: "Noto Sans KR";
-  src: url(../../static/fonts/NotoSansKR-VariableFont_wght.ttf) format("ttf");
+  src: url(../../static/fonts/NotoSansKR-VariableFont_wght.ttf);
 }
 
 
@@ -23,7 +23,7 @@ h2,
 h3,
 h4 {
   font-size: 3rem;
-  font-family: "Black Han Sans", ui-sans-serif, "Noto Sans KR";
+  font-family: "Black Han Sans", ui-sans-serif, "sans-serif";
 }
 p{
   font-family: "Noto Sans KR", sans-serif;
