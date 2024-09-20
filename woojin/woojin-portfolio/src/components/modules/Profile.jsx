@@ -4,7 +4,7 @@ import "../../css/profile.scss";
 
 function Profile(props) {
   return (
-    <div id="profile-area">
+    <div id="profile-area" className="page">
       <div>
         <h2>About me</h2>
         <div className="profile-box">

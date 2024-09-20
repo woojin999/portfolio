@@ -4,7 +4,7 @@ import "../../css/banner.scss";
 
 function Banner(props) {
   return (
-    <div id="banner-area">
+    <div id="banner-area" className="page">
       <div className="btitle">
         <h2>
           WooJin's

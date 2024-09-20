@@ -16,6 +16,7 @@ function Works() {
     ScpDetail.css("display","inline-block");
     $("body").css("overflow","hidden");
     $(".scp-detail-box").scrollTop(0);
+    
   }
   const hongDetail = (e) =>{
     let hongDetail = $(".hcp-detail");
@@ -30,7 +31,7 @@ function Works() {
     $(".star-detail-box").scrollTop(0);
   }
   return (
-    <div id="works-area">
+    <div id="works-area" className="page">
       <div>
         <h2>Works</h2>
         <div className="works-box">
@@ -86,7 +87,7 @@ function Works() {
                           href="https://woojin999.github.io/FED-RF-2nd-PJ-LEE_WOO_JIN/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/03.%EA%B5%AC%ED%98%84%EC%86%8C%EC%8A%A4/plants-app/build"
                           target="_blank"
                         >
-                          Site URL
+                          Web URL
                         </a>
                       </div>
                       <div>
@@ -144,7 +145,7 @@ function Works() {
                           href="https://woojin999.github.io/LWJ-PJ-LIVE/"
                           target="_blank"
                         >
-                          Site URL
+                          Web URL
                         </a>
                       </div>
                       <div>
@@ -206,7 +207,7 @@ function Works() {
                           href="https://alrang0929.github.io/FED_2rd_star_wars/000_React_PJ/star-app/build"
                           target="_blank"
                         >
-                          Site URL
+                          Web URL
                         </a>
                       </div>
                       <div>

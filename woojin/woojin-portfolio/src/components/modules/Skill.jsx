@@ -4,7 +4,7 @@ import "../../css/skill.scss";
 
 function Skill(props) {
   return (
-    <div id="skill-area">
+    <div id="skill-area" className="page">
       <div>
         <h2>Skill</h2>
         <p>현재까지 배우고 사용 해봤던 기술입니다</p>
