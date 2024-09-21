@@ -1,15 +1,49 @@
 #banner-area {
+  overflow: hidden;
   background-color: #ebf8ff;
   text-align: center;
   padding: 0 2rem 0 2rem;
   h2 {
     font-size: 9rem;
-    font-family: Black Han Sans, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-      Noto Color Emoji;
     margin-bottom: 5rem;
   }
+  .tit1 {
+    animation: tit1-ani 1.2s ease-in-out 0s forwards;
+    opacity: 1;
+    // position: absolute;
+    // transform: translateY(50%);
+  }
+  .tit2 {
+    opacity: 0;
+    animation: tit1-ani 1.2s ease-in-out 0.5s forwards;
+  }
+  .desc {
+    transform: translateX(-100%);
+    animation: desc-ani 1s ease-in-out 1.2s forwards;
+  }
+  @keyframes tit1-ani {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @keyframes desc-ani {
+    0% {
+      transform: translateX(-70%);
+    }
+    80% {
+      transform: translateX(10%);
+    }
+    100% {
+      // font-style: normal;
+      transform: translateX(0%);
+    }
+  }
+
   p {
     font-size: 2rem;
   }
@@ -17,6 +51,8 @@
     position: relative;
     bottom: -15rem;
     font-size: 1.5rem;
+    opacity: 0;
+    animation: scroll-txt 2s linear 2s forwards;
   }
   .scroll-bar {
     position: relative;
@@ -24,19 +60,19 @@
     height: 5rem;
     margin: 1rem auto;
     overflow: hidden;
-    width: .5rem;
+    width: 0.5rem;
     bottom: -15rem;
   }
   .scroll-bar::after {
     position: absolute;
     content: "";
-    animation: scroll-bar 1.5s linear infinite;
+    animation: scroll-bar 2s linear 2s infinite;
     background: #000;
     height: 5rem;
     top: 0;
     left: 0;
     opacity: 0;
-    width: .3rem;
+    width: 0.2rem;
     // bottom: -15rem;
   }
   @keyframes scroll-bar {
@@ -45,12 +81,20 @@
       top: 0;
     }
     70% {
-      opacity: 1;
+      opacity: 0.7;
       top: 70%;
     }
     100% {
       opacity: 0;
       top: 100%;
+    }
+  }
+  @keyframes scroll-txt {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
   .btitle {

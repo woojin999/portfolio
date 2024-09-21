@@ -197,7 +197,7 @@ function Works() {
                       <div className="info-desc rdesc">개발</div>
                     </div>
                     <div className="sw-tb">
-                      <div className="info-tit">개발부분</div>
+                      <div className="info-tit">개발파트</div>
                       <div className="info-desc">The Mandalorian Page</div>
                     </div>
                     <div className="link-url">
