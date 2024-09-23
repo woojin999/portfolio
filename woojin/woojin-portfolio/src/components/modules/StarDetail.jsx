@@ -19,6 +19,7 @@ function StarDetail(props) {
         <div className="star-detail-box">
           <h4>Starwars Clone Project</h4>
           <div className="desc-wrap">
+          <h5>The Mandalorian Part</h5>
             <div className="detail-wrap">
               <div className="col-7 dt-img">
                 <ul>
