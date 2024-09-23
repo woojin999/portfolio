@@ -204,7 +204,7 @@ function Works() {
                       <div onClick={starwarsDetail}>자세히 보기</div>
                       <div>
                         <a
-                          href="https://alrang0929.github.io/FED_2rd_star_wars/000_React_PJ/star-app/build"
+                          href="https://woojin999.github.io/FED-RF-2nd-PJ-LEE_WOO_JIN/1.5차_팀프로젝트/03.구현소스/star-app/build"
                           target="_blank"
                         >
                           Web URL
