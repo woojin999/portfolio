@@ -11,25 +11,32 @@ import "swiper/css/navigation";
 import $ from "jquery";
 
 function Works() {
-  const shopDetail = (e) =>{
+  const shopDetail = (e) => {
     let ScpDetail = $(".Scp-detail");
-    ScpDetail.css("display","inline-block");
-    $("body").css("overflow","hidden");
+    ScpDetail.css("display", "inline-block");
+    $("body").css("overflow", "hidden");
     $(".scp-detail-box").scrollTop(0);
-    
-  }
-  const hongDetail = (e) =>{
+  };
+  const hongDetail = (e) => {
     let hongDetail = $(".hcp-detail");
-    hongDetail.css("display","inline-block");
-    $("body").css("overflow","hidden");
+    hongDetail.css("display", "inline-block");
+    $("body").css("overflow", "hidden");
     $(".hcp-detail-box").scrollTop(0);
-  }
-  const starwarsDetail = (e) =>{
+  };
+  const starwarsDetail = (e) => {
     let starwarsDetail = $(".Star-detail");
-    starwarsDetail.css("display","inline-block");
-    $("body").css("overflow","hidden");
+    starwarsDetail.css("display", "inline-block");
+    $("body").css("overflow", "hidden");
     $(".star-detail-box").scrollTop(0);
-  }
+  };
+  const kakaoDetail = (e) => {
+    let kakaoDetail = $(".kakao-detail");
+    kakaoDetail.css("display", "inline-block");
+    $("body").css("overflow", "hidden");
+    $(".kakao-detail-box").scrollTop(0);
+    let ifr = $("iframe");
+    ifr.attr("src", "https://www.youtube.com/embed/7Y1O45--hq0");
+  };
   return (
     <div id="works-area" className="page">
       <div>
@@ -81,7 +88,9 @@ function Works() {
                       <div className="info-desc">100%</div>
                     </div>
                     <div className="link-url">
-                      <div className="Scp-btn" onClick={shopDetail}>자세히 보기</div>
+                      <div className="Scp-btn" onClick={shopDetail}>
+                        자세히 보기
+                      </div>
                       <div>
                         <a
                           href="https://woojin999.github.io/FED-RF-2nd-PJ-LEE_WOO_JIN/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/03.%EA%B5%AC%ED%98%84%EC%86%8C%EC%8A%A4/plants-app/build"
@@ -216,6 +225,69 @@ function Works() {
                           target="_blank"
                         >
                           GitHube URL
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <h3>KakaoTogether Clone Project</h3>
+                <div className="sw-box">
+                  <div className="col-6 sw-img-box">
+                    <img src="images/kakaoTogether.png" alt="kakaoTogether" />
+                  </div>
+                  <div className="col-6 sw-txt-box">
+                    <div className="sw-tb">
+                      <div className="info-tit">SKILLS</div>
+                      <div className="info-desc sdesc">Java</div>
+                      <div className="info-desc sdesc">Spring MVC</div>
+                      <div className="info-desc sdesc">Mysql</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">TOOLS</div>
+                      <div className="info-desc tdesc">Eclipse</div>
+                      <div className="info-desc tdesc">Visual Studio Code</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">진행기간</div>
+                      <div className="info-desc">22.11.03 ~ 24.11.17</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">개발인원</div>
+                      <div className="info-desc">1명</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">형상관리</div>
+                      <div className="info-desc gdesc">Github</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">역할</div>
+                      <div className="info-desc rdesc">기획</div>
+                      <div className="info-desc rdesc">개발</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">기여도</div>
+                      <div className="info-desc">100%</div>
+                    </div>
+                    <div className="link-url">
+                      <div onClick={kakaoDetail}>자세히 보기</div>
+                      <div>
+                        <a
+                          href="https://github.com/woojin999/KakaoTogether"
+                          target="_blank"
+                        >
+                          GitHube URL
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.youtube.com/watch?v=7Y1O45--hq0"
+                          target="_blank"
+                        >
+                          구현 영상
                         </a>
                       </div>
                     </div>

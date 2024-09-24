@@ -1,21 +1,20 @@
 #profile-area {
   padding: 0 2rem 0 2rem;
-  >div{
+  > div {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-  }  
+  }
   h2 {
     margin-bottom: 10rem;
     text-align: center;
     font-size: 5rem;
-    
   }
   .profile-box {
     display: flex;
     max-width: 900px;
     margin: 0 auto;
-    .pf-img{
+    .pf-img {
       padding-right: 2rem;
     }
     img {
@@ -25,11 +24,11 @@
       transform: scaleX(-1);
     }
     .pf-text {
-    >div{
+      > div {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-    }
+      }
       .introduce {
         margin-bottom: 3rem;
       }
@@ -37,6 +36,25 @@
         font-size: 1.7rem;
         margin-bottom: 0.5rem;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profile-area .profile-box {
+    display: block;
+    max-width: 900px;
+    text-align: center;
+    img {
+      max-width: 400px;
+      margin-bottom: 2rem;
+    }
+    .pf-text > div {
+      top: 0;
+      transform: translateY(0);
+    }
+    .pf-img {
+      padding-right: 0;
     }
   }
 }

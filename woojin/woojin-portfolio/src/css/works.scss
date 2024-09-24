@@ -97,10 +97,27 @@
       background-color: #000000;
     }
   }
-  .swiper-button-prev, .swiper-button-next{
+  .swiper-button-prev,
+  .swiper-button-next {
     color: #3d3d3d;
   }
-  .swiper-pagination-bullet-active{
+  .swiper-pagination-bullet-active {
     background-color: #3d3d3d;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  
+  #works-area {
+    height: 1100px;
+    .sw-box {
+      display: inline-block;
+      .sw-img-box{
+        margin-bottom: 2rem;
+      }
+    }
+    .link-url{
+      position:inherit;
+    }
   }
 }

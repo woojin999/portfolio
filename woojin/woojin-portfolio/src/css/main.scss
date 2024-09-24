@@ -14,3 +14,28 @@
 #contact-area,#profile-area,#skill-area,#works-area{
     height: 1000px;
 }
+
+@media screen and (max-width: 810px) {
+  
+    #skill-area,#works-area {
+      height: 1100px;
+      
+    }
+  }
+  
+@media screen and (max-width: 520px) {
+  
+    #skill-area,#works-area {
+      height: 1200px;
+      
+    }
+  }
+  
+@media screen and (max-width: 490px) {
+  
+    #skill-area {
+      height: 1300px;
+      
+    }
+  }
+  

@@ -6,6 +6,7 @@ import Profile from "../modules/Profile";
 import ProjectDetail from "../modules/ProjectDetail";
 import HongDetail from "../modules/HongDetail";
 import StarDetail from "../modules/StarDetail";
+import KakaoDetail from "../modules/KakaoDetail";
 function Main() {
   return (
     <>
@@ -16,6 +17,7 @@ function Main() {
       <ProjectDetail />
       <HongDetail />
       <StarDetail />
+      <KakaoDetail />
     </>
   );
 }

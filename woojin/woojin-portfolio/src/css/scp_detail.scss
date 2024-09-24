@@ -74,8 +74,17 @@
         list-style: circle;
       }
     }
-    .etc-list{
-        padding-left: 1rem;
+    .etc-list {
+      padding-left: 1rem;
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .scp-detail-box .detail-wrap {
+    display: block;
+  }
+  .scp-detail-box .detail-wrap .dt-img {
+    padding-right: 0rem;
   }
 }
