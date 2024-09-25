@@ -62,7 +62,7 @@
     bottom: -15rem;
     font-size: 1.5rem;
     opacity: 0;
-    animation: scroll-txt 2s linear 2.3s forwards;
+    animation: scroll-txt 2.2s linear 2.3s forwards;
   }
   .scroll-bar {
     position: relative;
@@ -76,7 +76,7 @@
   .scroll-bar::after {
     position: absolute;
     content: "";
-    animation: scroll-bar 2s linear 2.7s infinite;
+    animation: scroll-bar 2.2s linear 2.3s infinite;
     background: #e6e6e6;
     height: 4rem;
     top: 0;
