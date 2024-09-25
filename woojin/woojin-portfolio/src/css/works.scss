@@ -1,4 +1,6 @@
 #works-area {
+  background-color: #e6e6e6;
+  color: #e6e6e6;
   text-align: center;
   padding: 0 2rem 0 2rem;
   > div {
@@ -10,11 +12,15 @@
     text-align: center;
     font-size: 5rem;
     margin-bottom: 4rem;
+    color: #29292e;
+  }
+  h3,h4,p{
+    color: #e6e6e6;
   }
   .works-box {
-    background-color: rgb(231, 231, 231);
+    background-color: #29292e;
     border-radius: 15px;
-    box-shadow: 0px 5px 15px gray;
+    box-shadow: 0px 5px 15px #29292e;
     padding: 2rem;
     max-width: 1000px;
     margin: 0 auto;
@@ -44,6 +50,9 @@
         font-weight: 700;
         width: 130px;
         text-align: left;
+      }
+      .sdesc,.tdesc,.rdesc,.gdesc{
+        color: #29292e;
       }
       .sdesc {
         padding: 0 0.7rem;
@@ -99,10 +108,10 @@
   }
   .swiper-button-prev,
   .swiper-button-next {
-    color: #3d3d3d;
+    color: #e6e6e6;
   }
   .swiper-pagination-bullet-active {
-    background-color: #3d3d3d;
+    background-color: #e6e6e6;
   }
 }
 

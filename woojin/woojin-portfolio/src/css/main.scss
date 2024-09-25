@@ -2,40 +2,35 @@
 @import "./common/grid_12_flex";
 @import "./common/reset";
 
-
-
 // body *{
 //     outline: 2px dashed #ccc;
 // }
-#banner-area{
-    height: 950px;
-    
+#banner-area {
+  height: 950px;
 }
-#contact-area,#profile-area,#skill-area,#works-area{
-    height: 1000px;
+#contact-area,
+#profile-area,
+#skill-area,
+#works-area {
+  height: 1000px;
 }
 
 @media screen and (max-width: 810px) {
-  
-    #skill-area,#works-area {
-      height: 1100px;
-      
-    }
+  #skill-area,
+  #works-area {
+    height: 1100px;
   }
-  
+}
+
 @media screen and (max-width: 520px) {
-  
-    #skill-area,#works-area {
-      height: 1200px;
-      
-    }
+  #skill-area,
+  #works-area {
+    height: 1200px;
   }
-  
+}
+
 @media screen and (max-width: 490px) {
-  
-    #skill-area {
-      height: 1300px;
-      
-    }
+  #skill-area {
+    height: 1300px;
   }
-  
+}

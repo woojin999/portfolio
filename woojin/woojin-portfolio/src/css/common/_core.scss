@@ -8,9 +8,8 @@
   src: url(../../static/fonts/NotoSansKR-VariableFont_wght.ttf);
 }
 
-
 * {
-  font-family: "Noto Sans KR","Inter", sans-serif;
+  font-family: "Noto Sans KR", "Inter", sans-serif;
   font-weight: 400;
 }
 html {
@@ -26,7 +25,7 @@ h4 {
   font-size: 3rem;
   font-family: "Black Han Sans", ui-sans-serif, "sans-serif";
 }
-p{
+p {
   font-family: "Noto Sans KR", sans-serif;
 }
 /* 중앙속박스 */
@@ -40,7 +39,7 @@ p{
 .main-area > div + div {
   padding-top: 10rem;
 }
-.footer-area{
+.footer-area {
   margin-top: 10rem;
 }
 
