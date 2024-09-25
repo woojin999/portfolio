@@ -22,7 +22,7 @@ function KakaoDetail(props) {
     <div id="kakao-detail" className="kakao-detail">
       <div className="kakao-area">
         <div className="kakao-detail-box">
-          <h4>HongRuizhen Clone Project</h4>
+          <h4>KakaoTogether Clone Project</h4>
           <div className="desc-wrap">
             <h5>ERD</h5>
             <div className="detail-wrap">
