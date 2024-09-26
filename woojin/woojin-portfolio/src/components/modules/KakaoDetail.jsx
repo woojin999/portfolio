@@ -10,10 +10,12 @@ function KakaoDetail(props) {
       let movewrap = $(".kakao-detail");
       let ifr = $("iframe");
 
+      let isDisplay = $(".kakao-detail").css("display") != "none";
+
       //   console.log(movewrap);
-      if (clickwrap.has(e.target).length == 0) {
+      if (isDisplay && clickwrap.has(e.target).length == 0) {
         movewrap.hide();
-        $("body").css("overflow", "auto");
+        // $("body").css("overflow", "auto");
         ifr.attr("src", "");
         window.addEventListener("wheel", wheelFn, { passive: false });
       }

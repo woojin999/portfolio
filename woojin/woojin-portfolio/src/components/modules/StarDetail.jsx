@@ -8,8 +8,9 @@ function StarDetail(props) {
     $(document).mouseup(function (e) {
       let clickwrap = $(".star-area");
       let movewrap = $(".Star-detail");
+      let isDisplay = $(".Star-detail").css("display") != "none";
       //   console.log(movewrap);
-      if (clickwrap.has(e.target).length == 0) {
+      if (isDisplay && clickwrap.has(e.target).length == 0) {
         movewrap.hide();
         window.addEventListener("wheel", wheelFn, { passive: false });
       }

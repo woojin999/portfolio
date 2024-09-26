@@ -19,8 +19,7 @@ setTimeout(() => {
   window.scrollTo(0, 0);
 }, 300);
 function wheelFn(e) {
-  // console.log("휠");
-  e.preventDefault();
+  // e.preventDefault();
 
   if (stsWheel) return;
   stsWheel = true;

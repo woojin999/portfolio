@@ -8,10 +8,11 @@ function HongDetail(props) {
     $(document).mouseup(function (e) {
       let clickwrap = $(".hcp-area");
       let movewrap = $(".hcp-detail");
-      //   console.log(movewrap);
-      if (clickwrap.has(e.target).length == 0) {
+      let isDisplay = $(".hcp-detail").css("display") != "none";
+      
+      if (isDisplay && clickwrap.has(e.target).length == 0) {
         movewrap.hide();
-        $("body").css("overflow", "auto");
+        
         window.addEventListener("wheel", wheelFn, { passive: false });
       }
     });
