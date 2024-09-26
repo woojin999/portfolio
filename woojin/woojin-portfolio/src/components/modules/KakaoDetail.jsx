@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
 import "../../css/kakao_detail.scss";
+import { wheelFn } from "../js/wheel";
 
 function KakaoDetail(props) {
   useEffect(() => {
@@ -13,8 +14,8 @@ function KakaoDetail(props) {
       if (clickwrap.has(e.target).length == 0) {
         movewrap.hide();
         $("body").css("overflow", "auto");
-        // $("iframe").attr("src","");
         ifr.attr("src", "");
+        window.addEventListener("wheel", wheelFn, { passive: false });
       }
     });
   });

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
 import "../../css/star_detail.scss";
+import { wheelFn } from "../js/wheel";
 
 function StarDetail(props) {
   useEffect(() => {
@@ -10,6 +11,7 @@ function StarDetail(props) {
       //   console.log(movewrap);
       if (clickwrap.has(e.target).length == 0) {
         movewrap.hide();
+        window.addEventListener("wheel", wheelFn, { passive: false });
       }
     });
   });

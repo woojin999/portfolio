@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
+import $ from "jquery";
+
+import { wheelFn } from "../js/wheel";
 
 import "../../css/scp_detail.scss";
-import $ from "jquery";
 
 function ProjectDetail(props) {
   useEffect(() => {
@@ -12,6 +14,9 @@ function ProjectDetail(props) {
       if (clickwrap.has(e.target).length == 0) {
         movewrap.hide();
         $("body").css("overflow","auto");
+        window.addEventListener("wheel", wheelFn, { passive: false });
+      }else{
+        $("body").css("overflow", "hidden");
       }
     });
   });

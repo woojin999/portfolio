@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
 import "../../css/hong_detail.scss";
+import { wheelFn } from "../js/wheel";
 
 function HongDetail(props) {
   useEffect(() => {
@@ -11,6 +12,7 @@ function HongDetail(props) {
       if (clickwrap.has(e.target).length == 0) {
         movewrap.hide();
         $("body").css("overflow", "auto");
+        window.addEventListener("wheel", wheelFn, { passive: false });
       }
     });
   });

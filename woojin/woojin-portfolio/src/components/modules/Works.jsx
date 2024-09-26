@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { wheelFn } from "../js/wheel";
 
 import "../../css/works.scss";
 
@@ -16,24 +17,28 @@ function Works() {
     ScpDetail.css("display", "inline-block");
     $("body").css("overflow", "hidden");
     $(".scp-detail-box").scrollTop(0);
+    window.removeEventListener("wheel", wheelFn, { passive: true });
   };
   const hongDetail = (e) => {
     let hongDetail = $(".hcp-detail");
     hongDetail.css("display", "inline-block");
     $("body").css("overflow", "hidden");
     $(".hcp-detail-box").scrollTop(0);
+    window.removeEventListener("wheel", wheelFn, { passive: true });
   };
   const starwarsDetail = (e) => {
     let starwarsDetail = $(".Star-detail");
     starwarsDetail.css("display", "inline-block");
     $("body").css("overflow", "hidden");
     $(".star-detail-box").scrollTop(0);
+    window.removeEventListener("wheel", wheelFn, { passive: true });
   };
   const kakaoDetail = (e) => {
     let kakaoDetail = $(".kakao-detail");
     kakaoDetail.css("display", "inline-block");
     $("body").css("overflow", "hidden");
     $(".kakao-detail-box").scrollTop(0);
+    window.removeEventListener("wheel", wheelFn, { passive: true });
     let ifr = $("iframe");
     ifr.attr("src", "https://www.youtube.com/embed/7Y1O45--hq0");
   };
