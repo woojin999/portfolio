@@ -194,6 +194,21 @@ function ProjectDetail(props) {
                 </ul>
               </div>
             </div>
+            <div className="detail-wrap">
+              <div className="dt-desc">
+                <p>🛠 트러블 슈팅 🛠</p>
+                <ul className="etc-list trouble">
+                  <li>🚨 이슈 - 마이페이지 게시판에서 본인 글을 클릭했을때 해당 글 디테일로 이동해야 하지만 게시판 리스트로 노출 되는 이슈 <br />
+                  💥 원인 - 일반 게시글 버튼으로 접근할때 useState 첫 상태값이 항상 List로 설정 되어있기 때문에 마이페이지에서도 boardDetail의 상태값인 Read가 아닌 상태값 List로 설정 되어 이동  <br />
+                  💡 해결 - 마이페이지 게시판 리스트에서 board 컴포넌트로 이동할 때 useLocation을 사용하여 데이터 값을 담아 값이 있을때만 usestate 의 상태값을 Read로 변경시켜 boardDetail이 출력 될 수 있게 해결
+                  </li>
+                  <li>🚨 이슈 - 장바구니에 담겨있는 상품의 토탈 가격과 수량이 맞지 않는 이슈 <br />
+                  💥 원인 - 기존에는 회원간의 장바구니 구분이 없었기 때문에 로컬스토리지에 담겨있는 데이터의 총 갯수를 계산하였지만 회원별 장바구니를 다르게 변경하는 과정에서 오류 발생<br />
+                  💡 해결 - 회원별 id값을 가져와 그 회원의 id값과 일치하는 상품만 데이터 조회 후 그 데이터의 갯수를 사용하여 토탈 값과 장바구니 수량 계산
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
