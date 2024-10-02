@@ -258,7 +258,7 @@ function Works() {
                     </div>
                     <div className="sw-tb">
                       <div className="info-tit">진행기간</div>
-                      <div className="info-desc">22.11.03 ~ 24.11.17</div>
+                      <div className="info-desc">22.11.03 ~ 22.11.17</div>
                     </div>
                     <div className="sw-tb">
                       <div className="info-tit">개발인원</div>
