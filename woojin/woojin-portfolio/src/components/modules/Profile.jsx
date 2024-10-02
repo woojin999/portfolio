@@ -15,7 +15,7 @@ function Profile(props) {
             <div>
               <h3>이우진</h3>
               <p className="introduce">
-                적극적으로 효율적 웹 환경을 구현하는 개발자
+                적극적으로 효율적 웹 환경을 구현하는 프론트엔드 개발자
               </p>
               <p>DOB : 1999.10.07</p>
               <p>Email : 24864@naver.com</p>

@@ -15,7 +15,7 @@ function Banner(props) {
 
           </h2>
         <p className="desc">안녕하세요!!</p>
-        <p className="desc">웹 개발자 이우진의 포트폴리오 입니다.</p>
+        <p className="desc">프론트엔드 개발자 이우진의 포트폴리오 입니다.</p>
         <p className="scroll-down">scroll down</p>
         <div className="scroll-bar"></div>
       </div>
