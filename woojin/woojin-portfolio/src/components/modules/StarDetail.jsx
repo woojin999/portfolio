@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
-import "../../css/star_detail.scss";
 import { wheelFn } from "../js/wheel";
+import "../../css/star_detail.scss";
 
 function StarDetail(props) {
   useEffect(() => {

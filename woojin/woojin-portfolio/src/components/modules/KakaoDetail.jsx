@@ -12,10 +12,8 @@ function KakaoDetail(props) {
 
       let isDisplay = $(".kakao-detail").css("display") != "none";
 
-      //   console.log(movewrap);
       if (isDisplay && clickwrap.has(e.target).length == 0) {
         movewrap.hide();
-        // $("body").css("overflow", "auto");
         ifr.attr("src", "");
         window.addEventListener("wheel", wheelFn, { passive: false });
       }
