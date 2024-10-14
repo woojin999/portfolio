@@ -12,9 +12,16 @@ import "swiper/css/navigation";
 import $ from "jquery";
 
 function Works() {
+  const calendarDetail = (e) => {
+    let calendarDetail = $(".calendar-detail");
+    calendarDetail.css("display", "inline-block");
+    $("body").css("overflow", "hidden");
+    $(".calendar-detail-box").scrollTop(0);
+    window.removeEventListener("wheel", wheelFn, { passive: true });
+  };
   const todoDetail = (e) => {
-    let ScpDetail = $(".todo-detail");
-    ScpDetail.css("display", "inline-block");
+    let todoDetail = $(".todo-detail");
+    todoDetail.css("display", "inline-block");
     $("body").css("overflow", "hidden");
     $(".todo-detail-box").scrollTop(0);
     window.removeEventListener("wheel", wheelFn, { passive: true });
@@ -64,6 +71,66 @@ function Works() {
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
+            <SwiperSlide>
+              <div>
+                <h3>Calendar Project</h3>
+                <div className="sw-box">
+                  <div className="col-6 sw-img-box">
+                    <img src="images/calendar/main.png" alt="calendar" />
+                  </div>
+                  <div className="col-6 sw-txt-box">
+                    <div className="sw-tb">
+                      <div className="info-tit">SKILLS</div>
+                      <div className="info-desc sdesc">React</div>
+                      <div className="info-desc sdesc">JavaScript</div>
+                      <div className="info-desc sdesc">Sass</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">TOOLS</div>
+                      <div className="info-desc tdesc">Visual Studio Code</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">진행기간</div>
+                      <div className="info-desc">24.10.08 ~ 24.10.14</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">개발인원</div>
+                      <div className="info-desc">1명</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">역할</div>
+                      <div className="info-desc rdesc">기획</div>
+                      <div className="info-desc rdesc">개발</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">기여도</div>
+                      <div className="info-desc">100%</div>
+                    </div>
+                    <div className="link-url">
+                      <div className="Scp-btn" onClick={calendarDetail}>
+                        자세히 보기
+                      </div>
+                      <div>
+                        <a
+                          href="https://woojin-calendar.vercel.app/"
+                          target="_blank"
+                        >
+                          Web URL
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://github.com/woojin999/Calendar"
+                          target="_blank"
+                        >
+                          GitHube URL
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div>
                 <h3>Todo Project</h3>

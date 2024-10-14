@@ -10,6 +10,7 @@ import StarDetail from "../modules/StarDetail";
 import KakaoDetail from "../modules/KakaoDetail";
 import { wheelFn } from "../js/wheel";
 import TodoDetail from "../modules/TodoDetail";
+import CalendarDetail from "../modules/CalendarDetail";
 function Main() {
   window.addEventListener("wheel", wheelFn, { passive: false });
 
@@ -24,6 +25,7 @@ function Main() {
       <StarDetail />
       <KakaoDetail />
       <TodoDetail />
+      <CalendarDetail/>
     </>
   );
 }
