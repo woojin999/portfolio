@@ -232,7 +232,7 @@ function Works() {
                       </div>
                       <div>
                         <a
-                          href="https://woojin999.github.io/FED-RF-2nd-PJ-LEE_WOO_JIN/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/03.%EA%B5%AC%ED%98%84%EC%86%8C%EC%8A%A4/plants-app/build"
+                          href="https://plants-to-the-rescue-lwj.vercel.app/"
                           target="_blank"
                         >
                           Web URL
