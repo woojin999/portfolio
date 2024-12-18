@@ -83,7 +83,7 @@ function Works() {
                 <h3>DonateTogether Project</h3>
                 <div className="sw-box">
                   <div className="col-6 sw-img-box">
-                    <img src="images/donate/donate-main.png" alt="donateTogether" />
+                    <img src="images/donateTogether/donate-main.png" alt="donateTogether" />
                   </div>
                   <div className="col-6 sw-txt-box">
                     <div className="sw-tb">
