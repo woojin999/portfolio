@@ -90,7 +90,7 @@ function Works() {
                       <div className="info-tit">SKILLS</div>
                       <div className="info-desc sdesc">React</div>
                       <div className="info-desc sdesc">JavaScript</div>
-                      <div className="info-desc sdesc">tailwind</div>
+                      <div className="info-desc sdesc">TailwindCSS</div>
                     </div>
                     <div className="sw-tb">
                       <div className="info-tit">TOOLS</div>
