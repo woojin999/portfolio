@@ -12,6 +12,13 @@ import "swiper/css/navigation";
 import $ from "jquery";
 
 function Works() {
+  const donateTogetherDetail = (e) => {
+    let donateTogetherDetail = $(".donateTogether-detail");
+    donateTogetherDetail.css("display", "inline-block");
+    $("body").css("overflow", "hidden");
+    $(".donateTogether-detail-box").scrollTop(0);
+    window.removeEventListener("wheel", wheelFn, { passive: true });
+  };
   const calendarDetail = (e) => {
     let calendarDetail = $(".calendar-detail");
     calendarDetail.css("display", "inline-block");
@@ -71,6 +78,66 @@ function Works() {
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
+            <SwiperSlide>
+              <div>
+                <h3>DonateTogether Project</h3>
+                <div className="sw-box">
+                  <div className="col-6 sw-img-box">
+                    <img src="images/donate/donate-main.png" alt="donateTogether" />
+                  </div>
+                  <div className="col-6 sw-txt-box">
+                    <div className="sw-tb">
+                      <div className="info-tit">SKILLS</div>
+                      <div className="info-desc sdesc">React</div>
+                      <div className="info-desc sdesc">JavaScript</div>
+                      <div className="info-desc sdesc">tailwind</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">TOOLS</div>
+                      <div className="info-desc tdesc">Visual Studio Code</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">진행기간</div>
+                      <div className="info-desc">24.12.03 ~ 24.12.17</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">개발인원</div>
+                      <div className="info-desc">1명</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">역할</div>
+                      <div className="info-desc rdesc">기획</div>
+                      <div className="info-desc rdesc">개발</div>
+                    </div>
+                    <div className="sw-tb">
+                      <div className="info-tit">기여도</div>
+                      <div className="info-desc">100%</div>
+                    </div>
+                    <div className="link-url">
+                      <div className="Scp-btn" onClick={donateTogetherDetail}>
+                        자세히 보기
+                      </div>
+                      <div>
+                        <a
+                          href="https://donate-together-wjlee.vercel.app/"
+                          target="_blank"
+                        >
+                          Web URL
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://github.com/woojin999/DonateTogether"
+                          target="_blank"
+                        >
+                          GitHube URL
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div>
                 <h3>Calendar Project</h3>
