@@ -116,14 +116,21 @@ function DonateTogether(props) {
                       alt="donationList"
                     />
                   </li>
+                  <li>
+                    <img
+                      src="/images/donateTogether/share.png"
+                      alt="share"
+                    />
+                  </li>
                 </ul>
               </div>
               <div className="col-5 dt-desc">
-                <p>기부 글 / 기부하기 / 기부 내역</p>
+                <p>기부 글 / 기부하기 / 기부 내역 / 카카오톡 공유</p>
                 <ul>
                   <li>해당 글에서 기부 현황 표시</li>
                   <li>기부 금액, 응원글 작성시 기부 성공</li>
                   <li>하단에 회원별 기부 내역 구현</li>
+                  <li>카카오톡 공유하기 구현</li>
                 </ul>
               </div>
             </div>
