@@ -130,7 +130,7 @@ function Works() {
                           href="https://github.com/woojin999/DonateTogether"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                     </div>
@@ -190,7 +190,7 @@ function Works() {
                           href="https://github.com/woojin999/Calendar"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                     </div>
@@ -250,7 +250,7 @@ function Works() {
                           href="https://github.com/woojin999/Todo-list"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                     </div>
@@ -310,7 +310,7 @@ function Works() {
                           href="https://github.com/woojin999/FED-RF-2nd-PJ-LEE_WOO_JIN/tree/main/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/03.%EA%B5%AC%ED%98%84%EC%86%8C%EC%8A%A4/plants-app"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                     </div>
@@ -368,7 +368,7 @@ function Works() {
                           href="https://github.com/woojin999/FED-RF-2nd-PJ-LEE_WOO_JIN/tree/main/1%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/03.%EA%B5%AC%ED%98%84%EC%86%8C%EC%8A%A4"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                     </div>
@@ -429,7 +429,7 @@ function Works() {
                           href="https://github.com/alrang0929/FED_2rd_star_wars/tree/main/000_React_PJ/star-app"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                     </div>
@@ -484,7 +484,7 @@ function Works() {
                           href="https://github.com/woojin999/KakaoTogether"
                           target="_blank"
                         >
-                          GitHube URL
+                          GitHub URL
                         </a>
                       </div>
                       <div>
